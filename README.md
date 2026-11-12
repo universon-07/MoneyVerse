@@ -2,7 +2,7 @@
 
 Our interactive financial-literacy project, built to help students understand money through play.
 
-**[Explore the repository](https://github.com/universon-07/MoneyVerse)** · [Demo video](#demo) · [Design system](DESIGN.md)
+**[Play ▷](https://money-verse-devv.vercel.app/)** · [Demo video](#demo) · [Design system](DESIGN.md)
 
 > **📸 PASTE MAIN UI / ISLAND HOME-SCREEN SCREENSHOT HERE**
 >
@@ -43,27 +43,6 @@ Teachers can access the **Teacher Insights / Teacher Panel** at the `/teacher` r
 *Demo video coming soon.*
 
 <!-- Replace with a YouTube or GitHub-hosted video link when available. -->
-
-## Game screenshots
-
-Add the opening/front-page screenshot for each game below. Keep the suggested filenames, or change the image paths when you upload the actual screenshots.
-
-| **Bangle Bazaar — Plan & Budget** | **Café Meherban — Save & Manage** |
-| --- | --- |
-| **📸 PASTE BANGLE BAZAAR GAME FRONT-PAGE SCREENSHOT HERE** | **📸 PASTE CAFÉ MEHERBAN GAME FRONT-PAGE SCREENSHOT HERE** |
-| Suggested image: `docs/screenshots/play-budget.jpg` | Suggested image: `docs/screenshots/play-save.jpg` |
-
-| **The Pearl Exchange — Investing** | **Helpline Kiosk — Financial Safety** |
-| --- | --- |
-| **📸 PASTE THE PEARL EXCHANGE GAME FRONT-PAGE SCREENSHOT HERE** | **📸 PASTE HELPLINE KIOSK GAME FRONT-PAGE SCREENSHOT HERE** |
-| Suggested image: `docs/screenshots/play-invest.jpg` | Suggested image: `docs/screenshots/play-safe.jpg` |
-
-<!-- When screenshots are ready, replace the placeholder table cells with Markdown images, e.g.:
-![Bangle Bazaar opening screen](docs/screenshots/play-budget.jpg)
-![Café Meherban opening screen](docs/screenshots/play-save.jpg)
-![The Pearl Exchange opening screen](docs/screenshots/play-invest.jpg)
-![Helpline Kiosk opening screen](docs/screenshots/play-safe.jpg)
--->
 
 ## The four places
 
