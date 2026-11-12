@@ -24,7 +24,7 @@ Teachers can access the **Teacher Insights / Teacher Panel** at the `/teacher` r
 
 | Login detail | Demo value |
 | --- | --- |
-| Teacher email | **[thevisionvault15@gmail.com]** |
+| Teacher email | **thevisionvault15@gmail.com** |
 | Teacher password | `helloworld@123` |
 | Student class code | `HYD-QG42W` |
 
