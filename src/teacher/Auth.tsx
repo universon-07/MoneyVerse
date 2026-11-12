@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { cloud } from './cloud'
-import { Brand, C } from './ui'
+import { Brand, C, ICONS, Icon } from './ui'
 
 type View = 'in' | 'up' | 'forgot'
 
@@ -9,6 +9,7 @@ export function Auth({ onDemo, onBack }: { onDemo: () => void; onBack: () => voi
   const [view, setView] = useState<View>('in')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [showPassword, setShowPassword] = useState(false)
   const [agree, setAgree] = useState(false)
   const [busy, setBusy] = useState(false)
   const [err, setErr] = useState('')
@@ -47,7 +48,12 @@ export function Auth({ onDemo, onBack }: { onDemo: () => void; onBack: () => voi
             </label>
             {view !== 'forgot' && (
               <label className="grid gap-1 text-[13px] font-semibold">Password
-                <input className="mi-input" type="password" value={password} onChange={(e) => setPassword(e.target.value)} autoComplete={view === 'up' ? 'new-password' : 'current-password'} minLength={8} required />
+                <div className="relative">
+                  <input className="mi-input pr-12" type={showPassword ? 'text' : 'password'} value={password} onChange={(e) => setPassword(e.target.value)} autoComplete={view === 'up' ? 'new-password' : 'current-password'} minLength={8} required />
+                  <button type="button" className="absolute right-3 top-1/2 -translate-y-1/2 text-[16px] mi-muted hover:text-[var(--ink)] transition-colors" onClick={() => setShowPassword(p => !p)} aria-label={showPassword ? 'Hide password' : 'Show password'}>
+                    <Icon d={showPassword ? ICONS.eyeOff : ICONS.eye} size={18} />
+                  </button>
+                </div>
                 {view === 'up' && <span className="mi-muted text-[12px] font-normal">At least 8 characters.</span>}
               </label>
             )}
