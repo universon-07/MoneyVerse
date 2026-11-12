@@ -4,12 +4,6 @@ Our interactive financial-literacy project, built to help students understand mo
 
 **[Play ▷](https://money-verse-devv.vercel.app/)** · [Demo video](#demo) · [Design system](DESIGN.md)
 
-> **📸 PASTE MAIN UI / ISLAND HOME-SCREEN SCREENSHOT HERE**
->
-> Replace this placeholder with your screenshot after adding it to `docs/screenshots/home.jpg`:
->
-> `![MoneyVerse — main game interface](docs/screenshots/home.jpg)`
-
 MoneyVerse is a financial-literacy experience for students. Players enter an illustrated world, explore themed locations, and play interactive experiences built around four everyday money skills: **planning, saving, investing, and staying financially safe**.
 
 The idea is simple: instead of only reading what a budget or a scam is, players make decisions, see the consequences, and learn through the experience. The project also considers the player's happiness and balance, not just the amount of money they accumulate.
